@@ -12,7 +12,12 @@
         <activity
             android:name=".MainActivity"
             android:label="Best Stats Project"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
